@@ -1,15 +1,20 @@
-/**
- * Message contient un String
- */
+
 public class Message {
-     final String messageContent;
 
-    public Message(String m) {
-        this.messageContent = m;
+    final String message;
+
+    public Message(String message) {
+        this.message = message;
     }
+
+    public String getMessage() {
+        return message;
+    }
+
     public String getMessageContent() {
-        return messageContent;
+    return message;
     }
-
 
 }
+
+//on ne peut pas reecrire une methode lorsqu'ille est final
