@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
 direction BT
 class Main {
@@ -42,6 +43,7 @@ class Subject {
   + notifyUpdate(Message) void
   + detach(Observer) void
 }
+```
 
 MessagePublisher1  ..>  Subject 
 MessageSubscriber1  ..>  Observer 
