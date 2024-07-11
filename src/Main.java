@@ -20,6 +20,7 @@ public class Main {
 
    p2.attach(s2);
    p2.notifyUpdate(new Message("Premier Message du diffuseur 2"));
+        // test Observers
 
     }
 }
